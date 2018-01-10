@@ -607,6 +607,8 @@ h6 {
     font-size: 4vw;
     overflow: hidden;
     text-align: center;
+    position: relative;
+    z-index: 2;
   }
 
   .mobile-logo,
@@ -781,6 +783,8 @@ h6 {
     padding-top: 9%;
     padding-bottom: 3%;
     box-shadow: 0px 2px 8px -1px grey;
+    position: relative;
+    z-index: 1;
   }
 
   .left-graphs-div {
@@ -882,13 +886,6 @@ h6 {
   }
 }
 
-@media (min-width: 1400px) { 
-  
-  .avatar-photo {
-    height: 120px; 
-    width: 120px;
-  }
-}
 
 /*
 Color Palette
