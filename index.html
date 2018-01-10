@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Static Comp 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Ubuntu:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="full-page-wrapper">
+      <nav role="navigation">
+        <section class="left-nav avatar-section">
+          <img class="avatar-photo" src="images/girl-resize.jpg" alt="profile picture">
+          <p class="avatar-name">Newton<img class="left-nav-icon" id="down-arrow" src="images/sort-down.svg"/></p>
+        </section>
+        <section class="left-nav my-profile">
+          <h5 class="left-nav-h5">My Profile</h5>
+          <div class="left-nav-div">
+            <img class="left-nav-icon basics" src="images/demographics.svg">
+            <h2>DEMOGRAPHICS</h2>
+          </div>
+          <div class="left-nav-div">
+            <img class="left-nav-icon devices" src="images/devices.svg">
+            <h2>DEVICES</h2>
+          </div>
+          <div class="left-nav-div">
+            <img class="left-nav-icon financials" src="images/bitcoin.svg">
+            <h2>FINANCIALS</h2>
+          </div>
+          <div class="left-nav-div">
+            <img class="left-nav-icon history" src="images/tasks.svg">
+            <h2>HEALTH HISTORY</h2>
+          </div>
+          <div class="left-nav-div">
+            <img class="left-nav-icon routine" src="images/line-chart.svg">
+            <h2>ACTIVITY</h2>
+          </div>
+        </section>
+        <section class="left-nav my-pools">
+          <h5 class="left-nav-h5">My Pools</h5>
+          <div class="left-nav-div">
+            <img class="left-nav-icon pool-1" src="images/users.svg">
+            <h2>CAT | CO</h2>
+          </div>
+          <div class="left-nav-div">
+            <img class="left-nav-icon pool-2" src="images/location-icon.svg">
+            <h2>PRIME | RINO</h2>
+          </div>
+          <div class="left-nav-div">
+            <img class="left-nav-icon pool-3" src="images/earth.svg">
+            <h2>CAT-TEMP | EU</h2>
+          </div>
+          <div class="left-nav-div">
+            <img class="left-nav-icon pool-4" src="images/social.svg">
+            <h2>ORTHO | AT BIKE</h2>
+          </div>
+          <div class="left-nav-div">
+            <img class="left-nav-icon pool-5" src="images/social.svg">
+            <h2>ORTHO | CO BIKE</h2>
+          </div>
+        </section>
+        <section class="left-nav statistics-section">
+            <h5 class="left-nav-h5">STATISTICS</h5>
+            <div class="checkbox-div">
+              <input type="checkbox" id="administrative" name="categories" value="administrative">
+              <label for="coding">Fit Bit</label>
+            </div>
+            <div class="checkbox-div">
+              <input type="checkbox" id="design" name="categories" value="design">
+              <label for="music">iSleep</label>
+            </div>
+            <div class="checkbox-div">
+              <input type="checkbox" id="executive" name="categories" value="executive">
+              <label for="music">Strava</label>
+            </div>
+            <div class="checkbox-div">
+              <input type="checkbox" id="human-resources" name="categories" value="human-resources">
+              <label for="music">iBMI</label>
+            </div>            
+        </section> 
+      </nav>
+      <main>
+        <section class="mobile-home">
+          <h1 class="mobile-logo">POOL</h1>
+          <p class="mobile-sub">Find the insurance pool that fits your life.</p>
+        </section> 
+        <section class="search-section" role="Search">
+          <img class="search-icon search-burger" src="images/menu-button-square.svg">
+          <input class="search-icon search-input" type="text" aria-label="search for a provider or pool" placeholder="&#61442; Search for a pool or provider"/>
+          <img class="search-icon search-add-person" src="images/add-user-button.svg">    
+          <img class="search-icon search-calendar" src="images/calendar-search.svg">    
+          <img class="search-icon search-waffle" src="images/waffle.svg">    
+        </section> 
+        <header class="main-upper-third">
+          <article class="left-header-article">
+            <h1 class="header-title">Colorado Orthopedic Ski Pool</h1>
+            <div class="header-location-div">
+              <img class="main-icon-style location-icon" src="images/location-icon.svg">
+              <p class="header-location">Denver, CO</p>
+              <a class="header-preview" href="#">Search Denver based pools</a>
+            </div>
+          </article>
+          <article class="right-header-article">
+            <button class="circle-buttons open-button">
+              <div class="open-button-div">
+                <img src="images/green-circle.svg" class="green-circle">
+                <span class="open-text">Open</span>
+              </div>
+            </button>
+            <button class="circle-buttons button-bookmark" id=""><img class=" button-icon" src="images/bookmark.svg"></button>
+            <button class="circle-buttons button-edit"><img class=" button-icon" src="images/pencil-edit-button.svg"></button>
+            <button class="circle-buttons button-delete"><img class=" button-icon" src="images/garbage.svg"></button>
+          </article>
+        </header>
+        <section class="lower-header-section">
+          <h3 class="header-nav summary">SUMMARY</h3>
+          <h3 class="header-nav applicants">RATING</h3>
+          <h3 class="header-nav job-board">PROVIDERS</h3>
+          <h3 class="header-nav interviews">CHAIN</h3>
+          <h3 class="header-nav activity">ACTIVITY</h3>
+          <h3 class="header-nav broadcast">COSTS</h3>
+          <h3 class="header-nav notifications">HISTORY</h3>
+        </section> 
+        <section class="main-middle-third" role="complimentary">
+          <article class="left-graphs-article">
+            <div class="left-graphs-div">
+              <div class="left-circle-graph">
+                <svg width="100%" height="100%" viewBox="0 0 42 42" class="circle">
+                  <circle class="circle-inner" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                  <circle class="circle-whole" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4"  stroke-width="3"></circle>
+                  <circle class="circle-colored" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#0fa1f4"  stroke-width="3" stroke-dasharray="45 55" stroke-dashoffset="75"></circle>
+                  <g class="circle-copy">
+                    <text x="50%" y="50%" class="circle-number">9150</text>
+                    <text x="50%" y="50%" class="circle-label">Applicants</text>
+                  </g>
+                </svg>
+              </div>
+              <div class="middle-circle-graph">
+                <svg width="100%" height="100%" viewBox="0 0 42 42" class="circle">
+                  <circle class="circle-inner" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                  <circle class="circle-whole" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4"  stroke-width="3"></circle>
+                  <circle class="circle-colored" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#46bac7"  stroke-width="3" stroke-dasharray="33 64" stroke-dashoffset="72"></circle>
+                  <g class="circle-copy">
+                    <text x="50%" y="50%" class="circle-number">6478</text>
+                    <text x="50%" y="50%" class="circle-label">Accepted</text>
+                  </g>
+                </svg>
+              </div>
+              <div class="right-circle-graph">
+                <svg width="100%" height="100%" viewBox="0 0 42 42" class="circle">
+                  <circle class="circle-inner" cx="21" cy="21" r="15.91549430918954" fill="#fff"></circle>
+                  <circle class="circle-whole" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4"  stroke-width="3"></circle>
+                  <circle class="circle-colored" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="coral"  stroke-width="3" stroke-dasharray="67 32" stroke-dashoffset="74"></circle>
+                  <g class="circle-copy">
+                    <text x="50%" y="50%" class="circle-number">13,522</text>
+                    <text x="50%" y="50%" class="circle-label">Til Cap</text>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="left-graph-button-div">
+              <button class="graph-buttons left-graph-button">Totals, out of 20,000 spots</button>   
+            </div>
+          </article>
+          <article class="right-graphs-article">
+            <div class="right-graphs-div">
+              <img class="bar-graph" src="images/bar-graph.svg">
+            </div>
+            <div class="right-graph-button-div">
+              <button class="graph-buttons right-graph-button">Totals, out of 6,478 people</button>  
+            </div> 
+          </article>
+        </section>
+        <div class="hr-div">
+          <hr class="left-hr">
+          <img class="hr-up-arrow" src="images/up-button.svg">
+          <hr class="right-hr">
+        </div>
+        <section class="main-lower-third" role="main">
+          <table class="pool-table">
+            <thead>
+              <tr>
+                <th scope="col">POOL DESCRIPTION</th>
+                <th scope="col">Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">LOCATION</th>
+                <td>Denver, Colorado</td>
+              </tr>
+              <tr>
+                <th scope="row">CONTRACT LENGTH</th>
+                <td>6 Months</td>
+              </tr>          
+              <tr>
+                <th scope="row">PAYMENT TERMS</th>
+                <td>Monthly</td>
+              </tr>     
+              <tr>
+                <th scope="row">CURRENCY</th>
+                <td>Ether, Bitcoin, IOTA, Monero</td>
+              </tr> 
+              <tr>
+                <th scope="row">CHAIN</th>
+                <td>Ethereum</td>
+              </tr>
+              <tr>
+                <th scope="row">CLOSING DATE</th>
+                <td>November 1st</td>
+              </tr>                             
+              <tr>
+                <th scope="row">DESCRIPTION</th>
+                <td>Annual pool open to skiers and snowboarders of Colorado. Orthopedic repairs of ligaments and broken bones only. Does not cover catastrophic procedures. Open to all ages and genders with fitness ratings of 40 and above.. </td>
+              </tr> 
+              <tr>
+                <th scope="row">PROVIDERS</th>
+                <td>
+                  <li>The Steadman Clinic</li>
+                  <li>Denver Joint Replacement</li>
+                  <li>Aspen Orthopedics - Dr. Pevney</li>
+                  <li>Howard Head</li>
+                  <li>Steamboat Orthopedic Associates</li>
+                </td>
+              </tr> 
+              <tr>
+                <th scope="row">PROCEDURES</th>
+                <td>
+                  <li>Broken Bones - All</li>
+                  <li>Knee - ACL, MCL, LCL, Meniscus</li>
+                  <li>Shoulder - Dislocation, Labrum</li>
+                  <li>Thumb - UCL</li>
+                </td>
+              </tr> 
+              <tr>
+                <th scope="row">MIN/MAX</th>
+                <td>5,000/20,000</td>
+              </tr>                  
+            </tbody>
+          </table>
+          <section class="lower-third-right-side" role="complimentary">
+            <article class="social-icons-article">        
+              <button class="social-icons-buttons facebook-div">
+                <div class="social-icons-div">
+                  <img class="social-icons-logo" src="images/facebook.svg">
+                  <a class="social-links facebook" href="https://www.facebook.com/">Share this Pool</a>
+                </div>
+              </button>
+              <button class="social-icons-buttons twitter-div">
+                <div class="social-icons-div">
+                  <img class="social-icons-logo" src="images/twitter.svg">
+                  <a class="social-links twitter" href="https://www.twitter.com/">Tweet this Pool</a>
+                </div>
+              </button>
+              <button class="social-icons-buttons linkedin-div">
+                <div class="social-icons-div">
+                  <img class="social-icons-logo" src="images/linkedin.svg">
+                  <a class="social-links linkedin" href="https://www.linkedin.com/">Share this Pool</a>
+                </div>
+              </button>              
+            </article>
+            <article class="web-shares link-to-job">
+              <div class="web-shares-icon-div">
+                <img class="web-shares-icon" src="images/earth-web-shares.svg">
+                <h6 class="web-shares-header">Link Pool</h6>
+              </div>
+              <p class="web-shares-body">Link to this pool using the link below</p>
+              <div class="web-shares-div">
+                <input type="text" class="web-shares-link" aria-label="link to pool" placeholder="https://medium.com/crypto-currently/build-your-first-smart-contract-fc36a8ff50ca">
+                <button class="web-shares-button">Copy</button>
+              </div>
+            </article>
+            <article class="web-shares button-widget">
+              <div class="web-shares-icon-div">
+                <img class="web-shares-icon" src="images/embed.svg">
+                <h6 class="web-shares-header">Embed this Pool</h6>
+              </div>
+              <p class="web-shares-body">Embed this pool on your website via HTML via this script</p>
+              <div class="web-shares-div">
+                <input type="text" class="web-shares-link" aria-label="embed this pool" placeholder="<a href=”http://ethereum.com”><img src=”http://www.ethereum.com/images/an-125-wpguide.gif”/></a>">
+                <button class="web-shares-button">Copy</button>
+              </div>
+            </article>
+            <article class="web-shares link-to-job">
+              <div class="web-shares-icon-div">
+                <img class="web-shares-icon" src="images/plane.svg">
+                <h6 class="web-shares-header">Join Pool</h6>
+              </div>
+              <p class="web-shares-body">Upload contract information and Currency Address to the contract address below</p>
+            <div class="web-shares-div">
+              <input type="text" class="web-shares-link" aria-label="join this pool" placeholder="0x123f681646d4a755815f9cb19e1acc8565a0c2ac">
+            </div>
+            </article>
+          </section>
+        </section>
+        <div class="navbar">
+          <img class="navbar-icon avatar-photo-mobile" src="images/user.svg">
+          <img class="navbar-icon navbar-my-stats" src="images/graph.svg">
+          <img class="navbar-icon dropdown" id="toggle" src="images/add-button.svg">
+          <img class="navbar-icon navbar-my-pools" src="images/home.svg">
+          <img class="navbar-icon navbar-admin" src="images/settings.svg">
+      </div>
+      </main>
+    </div>
+  </body>
+</html>
